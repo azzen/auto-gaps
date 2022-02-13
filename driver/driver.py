@@ -81,7 +81,6 @@ class WebDriverConfig:
 			if os.path.splitext(download_path)[1] == ".zip":
 				log.info("Extracting zip file.")
 				with ZipFile(download_path, 'r') as ar:
-					ar.printdir()
 					ar.extractall(driver_dir)
 					log.success("Extracted zip file.")
 				log.info("Cleaning up directory.")
