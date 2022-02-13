@@ -26,11 +26,3 @@ if __name__ == '__main__':
 				gaps.notify(delta)
 	finally:
 		driver.dispose()
-
-
-
-
-
-
-
-
