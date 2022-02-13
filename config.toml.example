@@ -1,0 +1,19 @@
+[user]
+email    = ""  # Your switchaai email
+password = ""  # Your switchaai password
+hooks    = ["telegram", "discord"]  # The services used to notify you. You can specify multiple ones.
+
+[hooks]
+    [hooks.telegram]
+    token = ""       # Your telegram bot token
+
+    [hooks.discord]
+    webhook_url = "" # Discord webhook url
+
+# Past this point, you should not modify any of the following variables, unless you know what you're doing.
+[internal]
+driver = "chrome" # chrome (default)|firefox
+data_file = "data/gaps.dat"
+gaps_url = "https://gaps.heig-vd.ch/consultation/"
+gaps_grades_url = "https://gaps.heig-vd.ch/consultation/controlescontinus/consultation.php"
+gaps_provider_url="https://aai-logon.hes-so.ch/idp/shibboleth"

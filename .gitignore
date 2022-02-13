@@ -1,0 +1,8 @@
+.idea/
+venv/
+
+config.toml
+webdriver/
+data/
+logs/
+tasks_scheduler/
