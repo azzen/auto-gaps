@@ -6,6 +6,7 @@ hooks    = ["telegram", "discord"]  # The services used to notify you. You can s
 [hooks]
     [hooks.telegram]
     token = ""       # Your telegram bot token
+    chat_id = ""
 
     [hooks.discord]
     webhook_url = "" # Discord webhook url
