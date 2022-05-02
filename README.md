@@ -4,6 +4,8 @@
 
 1. Install the dependencies:
 
+ - Python version: >= 3.9
+
 ```
 pip install -r requirements.txt
 ```
