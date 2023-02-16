@@ -46,3 +46,7 @@ _You should schedule a task to execute auto-gaps_, see `cron` for linux or `task
         <td style="text-align:center">❌</td>
     </tr>
 </table>
+
+## Docker
+
+Thanks to [alexismts](https://github.com/AlexisMts), you can now use the following docker image: https://hub.docker.com/r/alexismts/auto-gaps
